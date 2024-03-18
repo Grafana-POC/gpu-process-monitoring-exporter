@@ -1,4 +1,4 @@
-FROM nvidia/dcgm-exporter:3.1.7-3.1.4-ubuntu20.04
+FROM nvidia/dcgm-exporter:3.3.5-3.4.0-ubuntu22.04
 
 RUN apt-get install -y ca-certificates \
     && apt-get update \
